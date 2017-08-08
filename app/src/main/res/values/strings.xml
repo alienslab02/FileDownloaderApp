@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FileDownloaderApp</string>
+    <string name="toolbar_description">As soon as application loads, it sends API request and populates RecyclerView with Images and Likes. Images are being downloaded and cached using the library \'FileDownloader\'. Click on any item to cancel download of image for that particular image.\nSupported Pull to Refresh and Load More on scrolling down. </string>
+</resources>
