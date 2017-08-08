@@ -86,7 +86,6 @@ public class PinBoardAdapter extends RecyclerView.Adapter<PinBoardAdapter.ViewHo
     }
 
     public void cancelLoading(PinBoard board) {
-        Log.d("PinBoardAdapter", "Cancel event sent -- ");
         imageLoader.cancel(board.getImage().getSmall());
     }
 
